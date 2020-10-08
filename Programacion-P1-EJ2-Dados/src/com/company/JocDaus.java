@@ -26,9 +26,9 @@ public class JocDaus {
                     dau2.tirar();
                     dau3.tirar();
 
-                    System.out.println("Daus:" + " " + dau1.getValor() );
-                    System.out.println("Daus:" + " " + dau2.getValor() );
-                    System.out.println("Daus:" + " " + dau3.getValor() );
+                    System.out.println(dau1.toString() );
+                    System.out.println(dau2.toString() );
+                    System.out.println(dau3.toString() );
                     if(dau1.getValor() == dau2.getValor() && dau1.getValor() == dau3.getValor()){
                         contadorVictorias++;
                     }else{

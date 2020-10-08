@@ -17,5 +17,10 @@ public class Daus {
     public void setValor(int valor) {
         this.valor = valor;
     }
-}
 
+
+    @Override
+    public String toString() {
+        return "Daus {" + valor + '}';
+    }
+}
